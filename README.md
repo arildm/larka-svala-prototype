@@ -17,17 +17,3 @@ To showcase it, we'll make a very simple app (in place of Lärka Texteval) for t
 ## Notes
 
 - The db part (not the gui) could perhaps be distributed as an example project for helping Svala users get started?
-
-```
-#backurl=aHR0cHM6Ly9zcHJhYWtiYW5rZW4uZ3Uuc2Uvc3dlbGwvcG9ydGFsL3Rhc2tzLw==&backend=aHR0cHM6Ly9zcHJhYWtiYW5rZW4uZ3Uuc2Uvc3dlbGwvcG9ydGFsL3Rhc2tzL2Fubm90YXRpb24vbm9ybWFsaXphdGlvbi8=&essay=Q5QT5&start_mode=normalization&user=11
-```
-
-```
-backurl=aHR0cHM6Ly9zcHJhYWtiYW5rZW4uZ3Uuc2Uvc3dlbGwvcG9ydGFsL3Rhc2tzLw==
-    https://spraakbanken.gu.se/swell/portal/tasks/
-backend=aHR0cHM6Ly9zcHJhYWtiYW5rZW4uZ3Uuc2Uvc3dlbGwvcG9ydGFsL3Rhc2tzL2Fubm90YXRpb24vbm9ybWFsaXphdGlvbi8=
-    https://spraakbanken.gu.se/swell/portal/tasks/annotation/normalization/
-essay=Q5QT5
-start_mode=normalization
-user=11
-```

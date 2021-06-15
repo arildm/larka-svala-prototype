@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lärka+Svala prototype</title>
+        <link rel="stylesheet" type="text/css" href="app.css" />
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+    <body>
+        <h1>Lärka+Svala prototype</h1>
+        <details id="info">
+            <summary>Help</summary>
+            <div>
+                <img src="larkasvala.svg" />
+            </div>
+            <div>
+                <ul>
+                    <li>When clicking the "Anonymize" button, the text is saved in a simple database (holding only this one essay, for demo purposes), and then Svala is opened</li>
+                    <li>Svala will request the same essay from the database</li>
+                    <li>Subsequent edits in Svala will be saved to the database</li>
+                    <li>When going back from Svala, this page will load the (updated) essay and display the target version</li>
+                    <li>The "Reset" button will delete the essay from the database, and you can try the workflow again</li>
+                </ul>
+            </div>
+        </details>
+        <div>
+            <div>
+                <strong>Enter essay text</strong>
+            </div>
+            <div>
+                <textarea id="text">Lotta Engberg, Liseberg och hela jäkla Göteborg får ursäkta men det finns en anledning till att SVT sopar banan med TV4 i kampen om allsångstittarna år efter år. Visst är det lite småmysigt med Helix i bakgrunden men det går inte att jämföra med SVT:s enastående panoreringar över Waldemarsviken, hamninloppet och Saltsjön. Dessutom kan Sanna Nielsen alltid erbjuda ett snäpp vassare artister än Lotta Engberg.</textarea>
+            </div>
+        </div>
+        <div>
+            <button onclick="gotoSvala()">Anonymize with Svala</button>
+        </div>
+
+        <div id="svala">
+            <h2>Anonymized version</h2>
+            <textarea id="anon" disabled></textarea>
+            <div>
+                <button onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    max-width: 800px;
+}
+
+#info {
+    margin: 1rem 0;
+    background-color: #eef;
+}
+
+summary {
+    margin-bottom: 1rem;
+}
+
+textarea {
+    width: 100%;
+    display: block;
+    height: 15em;
+    font-family: sans-serif;
+}
+
+#svala {
+    /* Will be shown by JS */
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}

@@ -72,6 +72,7 @@ function get_status($key) {
 
 /** Save essay to file (skips version check). */
 function save_version($key, $data, $version) {
+    // Note: This assumes that the directory and file are writable
     $result = file_put_contents("essays/$key.json", $data);
     return $result !== FALSE
         ? ['version' => $version]

@@ -14,6 +14,8 @@ We'll publish a super simple implementation of the API that swell-portal uses, o
 
 To showcase it, we'll make a very simple app (in place of Lärka Texteval) for the user to input an essay, open Svala and return to our app.
 
+![Sequence diagram](larkasvala.svg)
+
 ## Notes
 
 - The db part (not the gui) could perhaps be distributed as an example project for helping Svala users get started?

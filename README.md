@@ -16,6 +16,24 @@ To showcase it, we'll make a very simple app (in place of Lärka Texteval) for t
 
 ![Sequence diagram](larkasvala.svg)
 
+## Actual requirements and to-do's
+
+### Database
+
+- Saving a new text should generate an essay ID and include it in the response, for the frontend to supply to Svala
+- Entries should be automatically deleted after a few days?
+
+### Lärka frontend
+
+- Add "Anonymize" button like the one here
+- When the button is used, also inform the user about GDPR etc
+- Add delete button similar to the "Reset" button here
+
+### Other
+
+- SweLL portal: Make the Pseuws proxy route accessible for unauthorized users
+
 ## Notes
 
 - The db part (not the gui) could perhaps be distributed as an example project for helping Svala users get started?
+
